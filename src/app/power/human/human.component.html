@@ -1,0 +1,9 @@
+<fieldset>
+    <legend>
+      Human
+    </legend>
+    Power Level:{{myLevel['num']}}
+    <h2 *ngIf="myLevel['num'] == 50000">The One</h2>
+    <h2 *ngIf="myLevel['num'] > 20000">Superlative Powers!</h2>
+    <h2 *ngIf="myLevel['num'] > 9000 && myLevel['num']*500 < 20000">ITS OVER 9000!</h2>
+  </fieldset>
